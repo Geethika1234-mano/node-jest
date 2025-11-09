@@ -1,18 +1,18 @@
-const fs = require("fs");
+// const fs = require("fs");
 setTimeout(() => {
     console.log("this is setTimeout()")
 })
 
-fs.readFile(__filename, () =>{
-    console.log("this is reda file callback")
-})
+// fs.readFile(__filename, () =>{
+//     console.log("this is reda file callback")
+// })
 
-process.nextTick(() => {
-    console.log("this is process.nextTick()")
-})
-Promise.resolve().then(() =>{
-    console.log("this is Promise.resolve().then()")
-})
+// process.nextTick(() => {
+//     console.log("this is process.nextTick()")
+// })
+// Promise.resolve().then(() =>{
+//     console.log("this is Promise.resolve().then()")
+// })
 
 // setTimeout(() => {
 //     console.log("This is setTimeout() 1");
@@ -102,4 +102,5 @@ Promise.resolve().then(() =>{
 //promise queue
 // Promise.resolve().then(()=>{
 //     console.log("This is Promise.resolve().then() 1")
+
 // })
