@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "my-express-app",
+  "version": "1.0.0",
+  "description": "A simple Express.js application",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
